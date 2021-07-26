@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "725162634165",
+    "project_id": "checklistapp-8a13e",
+    "firebase_url":"https://checklistapp-8a13e-default-rtdb.europe-west1.firebasedatabase.app/",
+    "storage_bucket": "checklistapp-8a13e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:725162634165:android:6dbc7d654d35f2435987fc",
+        "android_client_info": {
+          "package_name": "com.example.apptest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "725162634165-264anccp2epmpeb4ne3m5lvc19reiq02.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEaR9vb3-wxqhSbcHDWZ6L69fGESeOWp8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "725162634165-264anccp2epmpeb4ne3m5lvc19reiq02.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
