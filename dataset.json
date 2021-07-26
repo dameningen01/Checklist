@@ -1,0 +1,59 @@
+{
+    "users":{
+        "user1":{
+            "name":"user 1",
+            "email":"user1@gmail.com",
+            "contractor":"0",
+            "password":"0a041b9462caa4a31bac3567e0b6e6fd9100787db2ab433d96f6d178cabfce90"
+        },
+        "user2":{
+            "name":"user 2",
+            "email":"user2@gmail.com",
+            "contractor":"0",
+            "password":"6025d18fe48abd45168528f18a82e265dd98d421a7084aa09f61b341703901a3"
+        }
+    },
+    "contractors":{
+        "0":{
+            "name":"VIVO",
+            "logo":"gs://checklistapp-8a13e.appspott.com/logos/vivo.jfif",
+            "members":{
+                "user1": true,
+                "user2":true
+            },
+            "depots":["depot_v_1","depot_v_2","depot_v_3","depot_v_4","depot_v_5"]            
+        },
+        "1":{
+            "name":"Pepsi",
+            "logo":"gs://checklistapp-8a13e.appspott.com/logos/PEPSI.png",
+            "members":{
+                "user1": false,
+                "user2":false
+            },
+            "depots":["depot_p_1","depot_p_2","depot_p_3","depot_p_4","depot_p_5"]            
+        }
+    },
+    "vehicles":{
+        "0":{
+            "model":"187",
+            "registration_number":"DL5CA0068",
+            "registration_year":"2017",
+            "driver_name":"user1",
+            "contractor":{
+                "VIVO":true
+            },
+            "ordometer":"1093610"
+        },
+        "1":{
+            "model":"104",
+            "registration_number":"MH20DV2366",
+            "registration_year":"2007",
+            "driver_name":"user2",
+            "contractor":{
+                "VIVO":true
+            },
+            "ordometer":"543812"
+        }
+    }
+
+}
