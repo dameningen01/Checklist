@@ -1,5 +1,5 @@
 # apptest
 
-A new Flutter project.
+New Flutter project.
 
 A starting project for a checklist mobile app
